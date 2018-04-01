@@ -1,0 +1,28 @@
+{
+  "name": "openshift-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subbusura/openshift-demo.git"
+  },
+  "author": "subramani krishnan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subbusura/openshift-demo/issues"
+  },
+  "homepage": "https://github.com/subbusura/openshift-demo#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "ejs": "^2.5.8",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "object-assign": "^4.1.1"
+  }
+}
