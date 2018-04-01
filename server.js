@@ -5,7 +5,7 @@ Object.assign=require('object-assign');
 app.set('view engine', 'ejs');
 
 var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080;
-var ip   = process.env.IP   || process.env.OPENSHIFT_NODEJS_IP || 'localhost';
+var ip   = process.env.IP   || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0';
 
 app.get("/",function(req,res){
 
